@@ -11,7 +11,7 @@ export const Groups = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#1c1c1c",
     alignItems: "center",
     justifyContent: "center",
   },
