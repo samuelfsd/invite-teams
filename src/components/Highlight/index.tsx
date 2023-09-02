@@ -6,11 +6,11 @@ type Props = {
   subtitle?: string;
 };
 
-export function Highlight({ title, subtitle }: Props) {
+export const Highlight = ({ title, subtitle }: Props) => {
   return (
     <Container>
       <Title>{title}</Title>
       {subtitle && <Subtitle>{subtitle}</Subtitle>}
     </Container>
   );
-}
+};

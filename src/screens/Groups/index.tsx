@@ -5,9 +5,10 @@ import { Highlight } from "@components/Highlight";
 import { GroupCard } from "@components/GroupCard";
 import { Header } from "@components/Header";
 import { ListEmpty } from "@components/ListEmpty";
+import { Button } from "@components/Button";
 
 import { ButtonContainer, Container, Text } from "./styles";
-import { Button } from "@components/Button";
+
 export const Groups = () => {
   const [groups, setGroups] = useState<string[]>(["Turma 01", "Tuerma 02"]);
 
