@@ -2,9 +2,13 @@
 
 Uma aplicação para criar e dividir times para uma jogatina com os amigos
 
-### stack utilizada
+### Stack e bibliotecas utilizadas
 
 - TypeScript
 - React Native
 - Styled Components
 - phosphor-react-native
+
+### Protótipo
+
+[Capa]("/assets/Capa.png")
