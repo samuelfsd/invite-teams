@@ -11,4 +11,4 @@ Uma aplicação para criar e dividir times para uma jogatina com os amigos
 
 ### Protótipo
 
-[Capa]("/assets/Capa.png")
+![capa](assets/Capa.png)
