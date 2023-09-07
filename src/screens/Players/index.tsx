@@ -10,7 +10,7 @@ import { Filter } from "@components/Filter";
 import { PlayerCard } from "@components/PlayerCard";
 import { ListEmpty } from "@components/ListEmpty";
 
-import { Container, Form, HeaderList, NumbersOfPlayers } from "./styles";
+import { Container, Form, HeaderList, NumberOfPlayers } from "./styles";
 
 export const Players = () => {
   const [team, setTeam] = useState("Time A");
@@ -44,7 +44,7 @@ export const Players = () => {
           horizontal
         />
 
-        <NumbersOfPlayers>{players.length}</NumbersOfPlayers>
+        <NumberOfPlayers>{players.length}</NumberOfPlayers>
       </HeaderList>
 
       <FlatList
