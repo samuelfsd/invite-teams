@@ -12,6 +12,7 @@ import { ButtonContainer, Container, Text } from "./styles";
 
 export const Groups = () => {
   const navigation = useNavigation();
+
   const [groups, setGroups] = useState<string[]>(["Turma 01", "Tuerma 02"]);
 
   const handleNewGroup = () => {
