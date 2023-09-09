@@ -9,6 +9,7 @@ Uma aplicação para criar e dividir times para uma jogatina com os amigos
 - React navigation - Native Stack
 - Styled Components
 - phosphor-react-native
+- async storage
 
 ### Protótipo
 
