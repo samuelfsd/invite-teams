@@ -10,8 +10,10 @@ Uma aplicação para criar e dividir times para uma jogatina com os amigos
 - Styled Components
 - phosphor-react-native
 - async storage
+- react-native-toast-message
 - alias de sessções como (screens, routes, components)
 - gerar e tratar exceções
+
 ### Protótipo
 
 ![capa](assets/Capa.png)
