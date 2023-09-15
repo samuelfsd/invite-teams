@@ -6,6 +6,8 @@ import {
   Roboto_700Bold,
 } from "@expo-google-fonts/roboto";
 
+import { Toast } from "react-native-toast-message/lib/src/Toast";
+
 import theme from "@theme/index";
 
 import { Routes } from "./src/routes";
@@ -22,6 +24,7 @@ export default function App() {
         translucent
       />
       {fontsLoaded ? <Routes /> : <Loading />}
+      <Toast />
     </ThemeProvider>
   );
 }

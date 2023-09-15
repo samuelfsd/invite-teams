@@ -81,6 +81,10 @@ export const Players = () => {
       getPlayersByTeam();
     } catch (error) {
       Alert.alert("Remover pessoa", "Não foi possível remover esta pessoa");
+      Toast.show({
+        type: "error",
+        text1: "Não foi possivel remover essa pessoa!",
+      });
     }
   };
 
